@@ -12,6 +12,42 @@ nav a {
     color: green;
 }
 
-img {
+.Navigation {
+    background-color: pink;
+}
+
+.Hero_Image {
     width: 100%;
+}
+
+.About_Me {
+    background-color: pink;
+}
+
+.Web_Dev {
+    background-color: magenta;
+}
+
+.Prototyping {
+    background-color: pink;
+}
+
+.Graphic_Design {
+    background-color: magenta;
+}
+
+.UX_Design_Cases {
+    background-color: pink;
+}
+
+.Articles {
+    background-color: magenta;
+}
+
+.Social_Media {
+    background-color: pink;
+}
+
+.Contact_Me {
+    background-color: magenta;
 }
