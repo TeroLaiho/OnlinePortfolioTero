@@ -12,6 +12,10 @@ nav a {
     color: green;
 }
 
+img {
+    width: 50%
+}
+
 .Navigation {
     background-color: pink;
 }
