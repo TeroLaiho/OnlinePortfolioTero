@@ -1,57 +1,77 @@
+:root{
+    --main-bg-color:#236167;
+    --area-color:#417C81;
+    --link-color:#68979B;
+}
+
+html {
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     display:block;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     display: block;
 }
 
 nav a {
-    color: green;
+    color: var(--link-color);
 }
 
 img {
-    width: 50%
+    width: 25%
+}
+
+html {
+    background-color: var(--main-bg-color);
 }
 
 .Navigation {
-    background-color: pink;
+    background-color: var(--area-color);
 }
+
+.Hero_Text {
+    font-size: 2.5rem;
+}
+
 
 .Hero_Image {
     width: 100%;
 }
 
 .About_Me {
-    background-color: pink;
+    background-color: var(--area-color);
 }
 
 .Web_Dev {
-    background-color: magenta;
+    background-color: var(--area-color);
 }
 
 .Prototyping {
-    background-color: pink;
+    background-color: var(--area-color);
 }
 
 .Graphic_Design {
-    background-color: magenta;
+    background-color: var(--area-color);
 }
 
 .UX_Design_Cases {
-    background-color: pink;
+    background-color: var(--area-color);
 }
 
 .Articles {
-    background-color: magenta;
+    background-color: var(--area-color);
 }
 
 .Social_Media {
-    background-color: pink;
+    background-color: var(--area-color);
 }
 
 .Contact_Me {
-    background-color: magenta;
+    background-color: var(--area-color);
 }
