@@ -58,6 +58,10 @@ div {
     margin-left: 16px;
 }
 
+.UX_Design_Cases {
+    background-color: var(--area-color);
+}
+
 .Web_Dev {
     background-color: var(--area-color);
 }
@@ -70,19 +74,26 @@ div {
     background-color: var(--area-color);
 }
 
-.UX_Design_Cases {
-    background-color: var(--area-color);
+
+
+.Graphic_Design:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 .Articles {
     background-color: var(--area-color);
 }
 
-.Post {
+.Item {
     float: left;
     width: 25%;
     height: 18rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: visible;
 }
 
