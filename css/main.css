@@ -78,6 +78,23 @@ div {
     background-color: var(--area-color);
 }
 
+.Post {
+    float: left;
+    width: 25%;
+    height: 16rem;
+    border: 1px solid black;
+    overflow: visible;
+}
+
+.Articles:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 .Social_Media {
     background-color: var(--area-color);
 }
