@@ -3,6 +3,7 @@
     --area-color:#417C81;
     --link-color:#68979B;
     --accent-color:#417C81;
+    --text-bg-color:rgba(65, 124, 129, 0.2);
 }
 
 html {
@@ -38,34 +39,27 @@ div {
 }
 
 .Navigation {
-    /* background-color: var(--area-color); */
-    position: absolute;
-    top: 0px;
-    left: 20px;
 }
 
 .Hero_Text {
     font-size: 3.5rem;
     color: var(--accent-color);
+    background-color: var(--text-bg-color);
 }
 
 
 .Hero_Image {
     width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
 }
 
 .About_Me {
     background-color: var(--area-color);
-    position: relative;
-    top:50vw;
+
 }
 
 .My_Picture {
-    float: right;
-    margin-left: 16px;
+/*    float: right;
+    margin-left: 16px; */
 }
 
 .UX_Design_Cases {
