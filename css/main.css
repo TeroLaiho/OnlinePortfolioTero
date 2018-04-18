@@ -1,7 +1,7 @@
 :root{
     --main-bg-color:#236167;
     --area-color:#417C81;
-    --link-color:#68979B;
+    --link-color:#fff;
     --accent-color:#417C81;
     --text-bg-color:rgba(65, 124, 129, 0.2);
 }
@@ -13,20 +13,19 @@ html {
 
 h1 {
     font-size: 2rem;
-    display:block;
 }
 
 h2 {
     font-size: 1.5rem;
-    display: block;
 }
 
 nav a {
     color: var(--link-color);
+    margin-left: 8px;
 }
 
 img {
-    width: 25%
+    width: 33%
 }
 
 html {
@@ -50,6 +49,10 @@ div {
 
 .Hero_Image {
     width: 100%;
+    height:auto;
+    z-index: -1;
+    margin-top: -150px;
+    position: relative;
 }
 
 .About_Me {
@@ -58,8 +61,8 @@ div {
 }
 
 .My_Picture {
-/*    float: right;
-    margin-left: 16px; */
+    float: right;
+    margin-left: 16px;
 }
 
 .UX_Design_Cases {
@@ -114,21 +117,55 @@ div {
     background-color: var(--area-color);
 }
 
+.Social_Links {
+}
+
+.Social_Links:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.Social_Link {
+    float: left;
+    width: 15vw;
+    font-size: 24px;
+}
+
 .Contact_Me {
     background-color: var(--area-color);
 }
 
 @media only screen and (orientation: portrait) {
 html{
-  font-size: 2vw;
+  font-size: 16px;
 }
 h1 {
-    font-size: 2rem;
-    display:block;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
-    display: block;
+    font-size: 1rem;
+
 }
+
+img {
+    width: 66%
+}
+
+.Hero_Text {
+    font-size: 2rem;
+    color: var(--accent-color);
+    background-color: var(--text-bg-color);
+}
+
+.Social_Link {
+    float: left;
+    width: 25%;
+    font-size: 1rem;
+}
+
 }
