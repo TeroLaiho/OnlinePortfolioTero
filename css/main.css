@@ -131,7 +131,7 @@ div {
 
 .Social_Link {
     float: left;
-    width: 15vw;
+    width: 20vw;
     font-size: 24px;
 }
 
@@ -163,9 +163,19 @@ img {
 }
 
 .Social_Link {
+    display: inline-block;
     float: left;
-    width: 25%;
-    font-size: 1rem;
+    width: 40%;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.Item {
+    float: left;
+    width: 40%;
+    height: 18rem;
+    /* border: 1px solid black; */
+    overflow: visible;
 }
 
 }
