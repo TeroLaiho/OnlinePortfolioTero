@@ -37,6 +37,10 @@ div {
     padding: 8px;
 }
 
+hr {
+    border-color:var(--accent-color);
+}
+
 .Navigation {
     display: inline-block;
 }
