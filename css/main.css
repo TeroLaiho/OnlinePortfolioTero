@@ -140,6 +140,10 @@ div {
     font-size: 24px;
 }
 
+.Social_Icon {
+    font-size: 2rem;
+}
+
 .Contact_Me {
     background-color: var(--area-color);
 }
@@ -161,6 +165,18 @@ img {
     width: 66%
 }
 
+.Hero_Image_Area {
+    margin: 0px
+}
+
+.Hero_Image {
+    width: 100%;
+    height:auto;
+    z-index: -1;
+    margin: 0px;
+    margin-top: -150px;
+    position: relative;
+}
 
 .Hero_Text {
     font-size: 2rem;
@@ -173,14 +189,14 @@ img {
     float: left;
     width: 40%;
     height: 4rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .Item {
     float: left;
     width: 40%;
     height: 18rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     /* border: 1px solid black; */
     overflow: visible;
 }
