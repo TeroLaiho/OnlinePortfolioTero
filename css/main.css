@@ -38,6 +38,7 @@ div {
 }
 
 .Navigation {
+    display: inline-block;
 }
 
 .Hero_Text {
@@ -46,11 +47,15 @@ div {
     background-color: var(--text-bg-color);
 }
 
+.Hero_Image_Area {
+    margin: 0px
+}
 
 .Hero_Image {
     width: 100%;
     height:auto;
     z-index: -1;
+    margin: 0px;
     margin-top: -150px;
     position: relative;
 }
@@ -155,6 +160,7 @@ h2 {
 img {
     width: 66%
 }
+
 
 .Hero_Text {
     font-size: 2rem;
