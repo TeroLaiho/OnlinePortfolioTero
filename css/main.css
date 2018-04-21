@@ -91,6 +91,10 @@ hr {
 }
 
 
+.Graphic_Design_Pictures {
+    width: 40%;
+    margin-left: 5%
+}
 
 .Graphic_Design:after {
   visibility: hidden;
@@ -203,6 +207,12 @@ img {
     font-size: 1rem;
     /* border: 1px solid black; */
     overflow: visible;
+}
+
+.Graphic_Design_Pictures {
+    width: 75%;
+    margin-left: 5%;
+    margin-bottom: 10px;
 }
 
 }
