@@ -142,11 +142,11 @@ hr {
   height: 0;
 }
 
-.Social_Link {
+/* .Social_Link {
     float: left;
     width: 20vw;
     font-size: 24px;
-}
+} */
 
 .Social_Icon {
     font-size: 2rem;
@@ -165,7 +165,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 
 }
 
@@ -192,19 +192,19 @@ img {
     background-color: var(--text-bg-color);
 }
 
-.Social_Link {
+/* .Social_Link {
     display: inline-block;
     float: left;
     width: 40%;
     height: 4rem;
     font-size: 1rem;
-}
+} */
 
 .Item {
     float: left;
     width: 40%;
     height: 18rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     /* border: 1px solid black; */
     overflow: visible;
 }
