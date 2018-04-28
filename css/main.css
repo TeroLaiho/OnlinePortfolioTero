@@ -28,26 +28,45 @@ img {
     width: 33%
 }
 
+header {
+    position: fixed;
+}
+
 html {
     background-color: var(--main-bg-color);
 }
 
-div {
-    margin: 8px;
-    padding: 8px;
-}
 
 hr {
     border-color:var(--accent-color);
 }
 
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.Section {
+    margin: 6px;
+    padding: 10px;
+}
+
 .Navigation {
+    background-color: var(--text-bg-color);
+}
+
+.Navigation a{
     display: inline-block;
 }
 
+
 .Hero_Text {
     font-size: 3.5rem;
-    color: var(--accent-color);
+    color: var(--link-color);
     background-color: var(--text-bg-color);
 }
 
@@ -60,13 +79,12 @@ hr {
     height:auto;
     z-index: -1;
     margin: 0px;
-    margin-top: -150px;
+    margin-top: -50px;
     position: relative;
 }
 
 .About_Me {
     background-color: var(--area-color);
-
 }
 
 .My_Picture {
@@ -115,6 +133,7 @@ hr {
     height: 18rem;
     /* border: 1px solid black; */
     overflow: visible;
+    padding: 8px;
 }
 
 .Articles:after {
@@ -188,7 +207,7 @@ img {
 
 .Hero_Text {
     font-size: 2rem;
-    color: var(--accent-color);
+    color: var(--link-color);
     background-color: var(--text-bg-color);
 }
 
@@ -204,7 +223,7 @@ img {
     float: left;
     width: 40%;
     height: 18rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     /* border: 1px solid black; */
     overflow: visible;
 }
