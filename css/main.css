@@ -242,7 +242,7 @@ header {
     display: none;
 }
 .Mobile_Menu {
-    font-size: 0.5rem;
+    font-size: 1rem;
     display: inline-block;
     position: absolute;
     color: var(--link-color);
@@ -261,7 +261,7 @@ header {
     position:relative;
     left: -40px;
     top: 0px;
-    width: 200px;
+    width: 350px;
 }
 .Mobile_Menu_Items a {
     color: var(--link-color);
