@@ -3,8 +3,9 @@
     --area-color:#6DA0A5;
     --link-color:#B5D4D7;
     --accent-color:#417C81;
-    --text-bg-color:rgba(65, 124, 129, 0.2);
+    --text-bg-color:rgba(65, 124, 129, 0.4);
 }
+
 
 html {
     font-size: 16px;
@@ -59,6 +60,9 @@ a:hover {
 
 .Navigation {
     background-color: var(--text-bg-color);
+}
+.Mobile_Menu {
+    display: none;
 }
 
 .Hero_Text {
@@ -190,6 +194,9 @@ h2 {
 img {
     width: 66%
 }
+header {
+    position: absolute;
+}
 
 .Hero_Image_Area {
     margin: 0px
@@ -226,11 +233,51 @@ img {
     /*border: 1px solid black; */
     overflow: visible;
 }
-
 .Graphic_Design_Pictures {
     width: 75%;
     margin-left: 5%;
     margin-bottom: 10px;
+}
+.Navigation {
+    display: none;
+}
+.Mobile_Menu {
+    font-size: 0.5rem;
+    display: inline-block;
+    position: absolute;
+    color: var(--link-color);
+    left: 10px;
+    top: 10px;
+}
+.Icon {
+    font-size: 1rem;
+}
+.Mobile_Menu_Items ul {
+
+}
+.Mobile_Menu_Items li {
+    display: inline-block;
+    list-style: none;
+    position:relative;
+    left: -40px;
+    top: 0px;
+    width: 200px;
+}
+.Mobile_Menu_Items a {
+    color: var(--link-color);
+}
+#Burger_Checkbox {
+    display: none;
+}
+.Mobile_Menu_Items{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--text-bg-color);
+}
+
+.Burger_Checked:checked ~ .Mobile_Menu_Items {
+    max-height: 1000px;
 }
 
 }
