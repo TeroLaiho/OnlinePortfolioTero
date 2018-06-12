@@ -250,7 +250,8 @@ header {
     top: 10px;
 }
 .Icon {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: -10px;
 }
 .Mobile_Menu_Items ul {
 
