@@ -177,108 +177,114 @@ a:hover {
 }
 
 @media only screen and (orientation: portrait) {
-html{
-    font-size: 40px;
-    font-family: Helvetica;
-}
+    html{
+        font-size: 40px;
+        font-family: Helvetica;
+    }
 
-h1 {
-    font-size: 1.5rem;
-}
+    h1 {
+        font-size: 1.5rem;
+    }
 
-h2 {
-    font-size: 1.5rem;
+    h2 {
+        font-size: 1.5rem;
 
-}
+    }
 
-img {
-    width: 66%
-}
-header {
-    position: absolute;
-}
+    img {
+        width: 66%
+    }
+    header {
+        position: absolute;
+    }
 
-.Hero_Image_Area {
-    margin: 0px
-}
+    .Hero_Image_Area {
+        margin: 0px
+    }
 
-.Hero_Image {
-    width: 100%;
-    height:auto;
-    z-index: -1;
-    margin: 0px;
-    margin-top: -150px;
-    position: relative;
-}
+    .Hero_Image {
+        width: 100%;
+        height:auto;
+        z-index: -1;
+        margin: 0px;
+        margin-top: -150px;
+        position: relative;
+    }
 
-.Hero_Text {
-    font-size: 2rem;
-    color: var(--link-color);
-    background-color: var(--text-bg-color);
-}
+    .Hero_Text {
+        font-size: 2rem;
+        color: var(--link-color);
+        background-color: var(--text-bg-color);
+    }
 
-/* .Social_Link {
-    display: inline-block;
-    float: left;
-    width: 40%;
-    height: 4rem;
-    font-size: 1rem;
-} */
+    /* .Social_Link {
+        display: inline-block;
+        float: left;
+        width: 40%;
+        height: 4rem;
+        font-size: 1rem;
+    } */
 
-.Item {
-    float: left;
-    width: 66%;
-    height: 14rem;
-    /*font-size: 1rem;*/
-    /*border: 1px solid black; */
-    overflow: visible;
-}
-.Graphic_Design_Pictures {
-    width: 75%;
-    margin-left: 5%;
-    margin-bottom: 10px;
-}
-.Navigation {
-    display: none;
-}
-.Mobile_Menu {
-    font-size: 1rem;
-    display: inline-block;
-    position: absolute;
-    color: var(--link-color);
-    left: 10px;
-    top: 10px;
-}
-.Icon {
-    font-size: 1.5rem;
-    margin-bottom: -10px;
-}
-.Mobile_Menu_Items ul {
+    .Item {
+        float: left;
+        width: 66%;
+        height: 14rem;
+        /*font-size: 1rem;*/
+        /*border: 1px solid black; */
+        overflow: visible;
+    }
 
-}
-.Mobile_Menu_Items li {
-    display: inline-block;
-    list-style: none;
-    position:relative;
-    left: -40px;
-    top: 0px;
-    width: 350px;
-}
-.Mobile_Menu_Items a {
-    color: var(--link-color);
-}
-#Burger_Checkbox {
-    display: none;
-}
-.Mobile_Menu_Items{
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
-    background-color: var(--text-bg-color);
-}
+    .Graphic_Design_Pictures {
+        width: 75%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+    }
 
-.Burger_Checked:checked ~ .Mobile_Menu_Items {
-    max-height: 1000px;
-}
+    .Navigation {
+        display: none;
+    }
+
+    .Mobile_Menu {
+        font-size: 1rem;
+        display: inline-block;
+        position: absolute;
+        color: var(--link-color);
+        left: 10px;
+        top: 10px;
+    }
+
+    .Icon {
+        font-size: 1.5rem;
+        margin-bottom: -10px;
+    }
+
+    .Mobile_Menu_Items ul {
+        position:absolute;
+    }
+
+    .Mobile_Menu_Items li {
+        display: inline-block;
+        list-style: none;
+        width: 350px;
+    }
+
+    .Mobile_Menu_Items a {
+        color: var(--link-color);
+    }
+
+    #Burger_Checkbox {
+        display: none;
+    }
+
+    .Mobile_Menu_Items{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+        background-color: var(--text-bg-color);
+    }
+
+    .Burger_Checked:checked ~ .Mobile_Menu_Items {
+        max-height: 1000px;
+    }
 
 }
