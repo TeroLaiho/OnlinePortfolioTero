@@ -123,9 +123,19 @@ a:hover {
   clear: both;
   height: 0;
 }
+.Articles_Section {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
 
 .Articles {
     background-color: var(--area-color);
+}
+
+.Article {
+
 }
 
 .Item {
@@ -224,6 +234,12 @@ a:hover {
         height: 4rem;
         font-size: 1rem;
     } */
+
+    .Articles_Section {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 90vw;
+}
 
     .Item {
         float: left;
