@@ -138,14 +138,6 @@ a:hover {
 
 }
 
-.Item {
-    float: left;
-    width: 25%;
-    height: 18rem;
-    /* border: 1px solid black; */
-    overflow: visible;
-    padding: 8px;
-}
 
 .Articles:after {
   visibility: hidden;
@@ -160,10 +152,20 @@ a:hover {
     background-color: var(--area-color);
 }
 
-.Social_Links {
+.Social_Links_Area {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 33vw 33vw;
+    grid-template-rows:
 }
 
-.Social_Links:after {
+.Social_Link {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.Social_Links_Area:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -171,12 +173,6 @@ a:hover {
   clear: both;
   height: 0;
 }
-
-/* .Social_Link {
-    float: left;
-    width: 20vw;
-    font-size: 24px;
-} */
 
 .Social_Icon {
     font-size: 2rem;
@@ -227,28 +223,18 @@ a:hover {
         background-color: var(--text-bg-color);
     }
 
-    /* .Social_Link {
-        display: inline-block;
-        float: left;
-        width: 40%;
-        height: 4rem;
-        font-size: 1rem;
-    } */
-
     .Articles_Section {
     width: 90vw;
     display: grid;
     grid-template-columns: 90vw;
-}
-
-    .Item {
-        float: left;
-        width: 66%;
-        height: 14rem;
-        /*font-size: 1rem;*/
-        /*border: 1px solid black; */
-        overflow: visible;
     }
+
+    .Social_Links_Area {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 90vw;
+    }
+
 
     .Graphic_Design_Pictures {
         width: 75%;
